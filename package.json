@@ -6,6 +6,7 @@
   },
 
   "scripts": {
-    "create-config": "npx tailwindcss init"
+    "create-config": "npx tailwindcss init",
+    "build-css": "npx tailwindcss-cli@latest build -i ./src/style.css -o ./dist/style.css"
   }
 }
