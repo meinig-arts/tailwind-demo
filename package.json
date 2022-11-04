@@ -1,0 +1,7 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
