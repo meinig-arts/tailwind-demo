@@ -682,6 +682,11 @@ video {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -697,6 +702,10 @@ video {
 }
 
 .font-bold {
+  font-weight: 700;
+}
+
+.hover\:font-bold:hover {
   font-weight: 700;
 }
 
